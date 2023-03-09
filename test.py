@@ -2,10 +2,12 @@ import numpy as np
 
 
 if __name__ == '__main__':
-    prova = np.empty([2, 2], dtype=int)
-    print(prova)
 
 
-    prova[0] = [10,20]
+    matrice = [[1, 5, 3, 6, 3, 8, 5, 2, 6, 8], [6, 4, 0, 0, 5, 3, 7, 5, 2, 8],
+                                                [3, 4, 5, 0, 3, 6, 4, 0, 5, 7], [3, 5, 6, 3, 0, 3, 5, 3, 4, 6],
+                                                [3, 6, 7, 0, 3, 0, 6, 4, 5, 7],
+                                                [3, 7, 8, 5, 3, 6, 0, 4, 5, 6]]
 
-    print(prova)
+
+    print(matrice[2][0])
